@@ -14,6 +14,13 @@ export const metadata: Metadata = {
   title: "Bible Scholar Kids — The Bible, Made Fun for Kids",
   description:
     "An interactive Bible learning adventure with quizzes, stories, and a pet lamb companion. For ages 6–12.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
