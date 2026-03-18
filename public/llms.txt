@@ -1,0 +1,62 @@
+# Bible Scholar Kids
+
+> Bible Scholar Kids is an interactive Bible learning app for children ages 6-12. It features 163 illustrated episodes covering the full Bible narrative from Genesis to Revelation, 10,000+ quiz questions across 5 quiz types, a pet lamb companion called Shepherd, verse memorization tools, a prayer journal, and a parent dashboard. The app is COPPA compliant, ad-free, and has no social features or data collection.
+
+## About
+
+Bible Scholar Kids was born from a simple idea: every child deserves to know the Bible, and learning it should be an adventure, not a chore. The app makes Scripture accessible, engaging, and fun for children ages 6-12 through illustrated stories, interactive quizzes, and a companion who grows with them.
+
+The content is non-denominational and focuses on teaching the biblical narrative faithfully. Bible Scholar Kids does not add to or take away from Scripture - it simply makes it accessible to young minds.
+
+## Key Features
+
+- 163 illustrated episodes across 21 seasons covering the full Bible (Genesis to Revelation)
+- 5 quiz types: multiple choice, true/false, fill-in-the-blank, verse ordering, image matching
+- 10,000+ quiz questions
+- Shepherd companion: a pet lamb that evolves through 5 stages with 27 customizable accessories
+- 6 Bible translations: English (KJV), Spanish, French, Portuguese, Chinese, Arabic
+- Verse memorization using spaced repetition
+- Daily missions and streaks
+- Prayer journal with 5 categories
+- Parent dashboard with progress tracking, quiz review, and time limits (15/30/45/60 minutes)
+- 50 levels and 23 achievement badges
+
+## Safety and Privacy
+
+- No advertisements ever
+- No social features or stranger contact
+- Parent-gated controls (math problem verification)
+- COPPA compliant - no personal data collected from children
+- All data stays on device
+- Parental time limits
+
+## Pricing
+
+- Free: First 10 episodes, 5 hearts/day, basic daily verse, 1 quiz type - $0
+- Monthly: All 163 episodes, unlimited hearts, all 5 quiz types, verse memorization - $4.99/month
+- Yearly: Everything in Monthly plus Shepherd evolution, prayer journal, streaks - $49.99/year
+- Family: Everything in Yearly plus up to 5 kid profiles, individual tracking - $79.99/year
+
+## Use Cases
+
+- Home Bible study for families
+- Sunday School lesson reinforcement
+- Children's ministry group activities
+- Homeschool Bible curriculum supplement
+- Verse memorization programs
+- Weekly Bible challenges for church classes
+
+## Contact
+
+- General: hello@biblescholarkids.com
+- Support: support@biblescholarkids.com
+- Website: https://biblescholarkids.com
+
+## Links
+
+- [Home](https://biblescholarkids.com)
+- [Features](https://biblescholarkids.com/features)
+- [About](https://biblescholarkids.com/about)
+- [Support & FAQ](https://biblescholarkids.com/support)
+- [Privacy Policy](https://biblescholarkids.com/privacy)
+- [Terms of Service](https://biblescholarkids.com/terms)

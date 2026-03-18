@@ -1,5 +1,21 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import {
+  JsonLd,
+  websiteSchema,
+  organizationSchema,
+  softwareAppSchema,
+} from "@/components/seo/JsonLd";
+
+export const metadata: Metadata = {
+  title: "Bible Scholar Kids — The Bible, Made Fun for Kids",
+  description:
+    "Bible Scholar Kids is an interactive Bible learning app with 163 episodes, 10,000+ quiz questions, illustrated stories, and a pet lamb companion. Designed for kids ages 6-12. COPPA compliant, ad-free, and parent-approved. Perfect for families and Sunday School.",
+  alternates: {
+    canonical: "https://biblescholarkids.com",
+  },
+};
 
 const testimonials = [
   {
@@ -93,6 +109,10 @@ const SafetyIcon = () => (
 export default function Home() {
   return (
     <>
+      <JsonLd data={websiteSchema} />
+      <JsonLd data={organizationSchema} />
+      <JsonLd data={softwareAppSchema} />
+
       {/* Hero */}
       <section className="pt-8 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

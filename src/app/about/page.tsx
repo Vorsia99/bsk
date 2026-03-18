@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "Bible Scholar Kids was born from a simple idea: every child deserves to know the Bible. Learn about our mission to make Scripture accessible and fun for children ages 6-12.",
+  alternates: {
+    canonical: "https://biblescholarkids.com/about",
+  },
+};
+
 export default function AboutPage() {
   return (
     <section className="pt-16 pb-20">
