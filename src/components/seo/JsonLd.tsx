@@ -71,16 +71,7 @@ export const softwareAppSchema = {
       priceCurrency: "USD",
       billingDuration: "P1Y",
       description:
-        "Everything in Monthly plus Shepherd companion evolution, prayer journal, and streaks",
-    },
-    {
-      "@type": "Offer",
-      name: "Family",
-      price: "79.99",
-      priceCurrency: "USD",
-      billingDuration: "P1Y",
-      description:
-        "Everything in Yearly plus up to 5 kid profiles, individual progress tracking, parent dashboard analytics",
+        "Everything in Monthly plus Shepherd companion evolution, prayer journal, streaks, up to 5 kid profiles, and parent dashboard analytics",
     },
   ],
   aggregateRating: {

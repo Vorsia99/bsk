@@ -67,8 +67,7 @@ const safetyFeatures = [
 const plans = [
   { name: "Free", price: "$0", period: "forever", features: ["First 10 episodes only", "5 hearts (lives) per day", "Basic daily verse", "1 quiz type (multiple choice)"], cta: "Get Started Free", highlighted: false },
   { name: "Monthly", price: "$4.99", period: "/month", features: ["All 163 episodes unlocked", "Unlimited hearts", "All 5 quiz types", "Verse memorization tools"], cta: "Start Free Trial", highlighted: false },
-  { name: "Yearly", price: "$49.99", period: "/year", features: ["Everything in Monthly", "Shepherd companion evolution", "Prayer journal & streaks", "Save vs monthly billing"], cta: "Best Value \u2014 Save More", highlighted: true },
-  { name: "Family", price: "$79.99", period: "/year", features: ["Everything in Yearly", "Up to 5 kid profiles", "Individual progress tracking", "Parent dashboard analytics"], cta: "Get Family Plan", highlighted: false },
+  { name: "Yearly", price: "$49.99", period: "/year", features: ["Everything in Monthly", "Shepherd companion evolution", "Prayer journal & streaks", "Up to 5 kid profiles", "Parent dashboard analytics", "Save vs monthly billing"], cta: "Best Value \u2014 Save More", highlighted: true },
 ];
 
 const FeatureIcon = ({ type }: { type: string }) => {
@@ -293,7 +292,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold text-dark">Start Free. Upgrade When You&apos;re Ready.</h2>
           <p className="mt-4 text-muted max-w-xl mx-auto">Try 10 episodes free &mdash; no credit card required. Upgrade to unlock all 163 episodes and premium features.</p>
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {plans.map((plan) => (
               <div key={plan.name} className={`rounded-2xl p-8 flex flex-col text-left relative ${plan.highlighted ? "border-2 border-primary shadow-lg bg-white" : "bg-white border border-dark/10"}`}>
                 {plan.highlighted && <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-xs font-bold px-4 py-1 rounded-full">Most Popular</span>}
