@@ -11,7 +11,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://biblescholarkids.com"),
+  metadataBase: new URL("https://www.biblescholarkids.com"),
   title: {
     default: "Bible Scholar Kids — Fun Bible Learning App for Children Ages 6-12",
     template: "%s | Bible Scholar Kids",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://biblescholarkids.com",
+    url: "https://www.biblescholarkids.com",
     siteName: "Bible Scholar Kids",
     title: "Bible Scholar Kids — Fun Bible Learning App for Children Ages 6-12",
     description:
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
       "Interactive Bible learning with 163 episodes, 10,000+ quiz questions, and a pet lamb companion. For ages 6-12. Ad-free and COPPA compliant.",
   },
   alternates: {
-    canonical: "https://biblescholarkids.com",
+    canonical: "https://www.biblescholarkids.com",
   },
   icons: {
     icon: [

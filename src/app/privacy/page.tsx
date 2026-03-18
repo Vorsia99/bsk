@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Bible Scholar Kids Privacy Policy — COPPA compliant. Learn how we protect your child's privacy. No ads, no data collection, no third-party tracking.",
   alternates: {
-    canonical: "https://biblescholarkids.com/privacy",
+    canonical: "https://www.biblescholarkids.com/privacy",
   },
 };
 

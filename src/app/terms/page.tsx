@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Bible Scholar Kids Terms of Service. Read the terms and conditions governing your use of the Bible Scholar Kids app.",
   alternates: {
-    canonical: "https://biblescholarkids.com/terms",
+    canonical: "https://www.biblescholarkids.com/terms",
   },
 };
 

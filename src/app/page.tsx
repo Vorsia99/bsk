@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Bible Scholar Kids is an interactive Bible learning app with 163 episodes, 10,000+ quiz questions, illustrated stories, and a pet lamb companion. Designed for kids ages 6-12. COPPA compliant, ad-free, and parent-approved. Perfect for families and Sunday School.",
   alternates: {
-    canonical: "https://biblescholarkids.com",
+    canonical: "https://www.biblescholarkids.com",
   },
 };
 

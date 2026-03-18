@@ -11,12 +11,12 @@ export const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Bible Scholar Kids",
-  url: "https://biblescholarkids.com",
+  url: "https://www.biblescholarkids.com",
   description:
     "An interactive Bible learning app with quizzes, stories, and a pet lamb companion for children ages 6-12.",
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://biblescholarkids.com/support?q={search_term_string}",
+    target: "https://www.biblescholarkids.com/support?q={search_term_string}",
     "query-input": "required name=search_term_string",
   },
 };
@@ -25,7 +25,7 @@ export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Bible Scholar Kids",
-  url: "https://biblescholarkids.com",
+  url: "https://www.biblescholarkids.com",
   email: "hello@biblescholarkids.com",
   description:
     "Making Bible learning fun, safe, and meaningful for children ages 6-12.",

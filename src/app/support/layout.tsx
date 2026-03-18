@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Get help with Bible Scholar Kids. Find answers to common questions about subscriptions, safety, Bible translations, parent dashboard, offline mode, and more.",
   alternates: {
-    canonical: "https://biblescholarkids.com/support",
+    canonical: "https://www.biblescholarkids.com/support",
   },
 };
 
