@@ -14,3 +14,134 @@ body {
   color: #1A1208;
   font-family: var(--font-nunito), Arial, Helvetica, sans-serif;
 }
+
+/* ============================================
+   Legal content (Terms, Privacy) typography
+   ============================================ */
+.legal-content {
+  color: #1A1208;
+  line-height: 1.75;
+  font-size: 1rem;
+}
+
+.legal-content > p {
+  margin-bottom: 1.25rem;
+  color: #3f3629;
+}
+
+.legal-content h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #1A1208;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+  border-top: 1px solid #EFE8DB;
+  letter-spacing: -0.01em;
+}
+
+.legal-content h2:first-of-type {
+  margin-top: 2.5rem;
+}
+
+.legal-content h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1A1208;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.005em;
+}
+
+.legal-content ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.legal-content ul li {
+  margin-bottom: 0.625rem;
+  color: #3f3629;
+  padding-left: 0.25rem;
+}
+
+.legal-content ul li::marker {
+  color: #E8622A;
+}
+
+.legal-content a {
+  color: #E8622A;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 0.15s ease;
+}
+
+.legal-content a:hover {
+  color: #c4501f;
+}
+
+.legal-content strong {
+  color: #1A1208;
+  font-weight: 700;
+}
+
+/* Pricing table inside legal content */
+.legal-content table {
+  width: 100%;
+  margin: 1.5rem 0 1.75rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #EFE8DB;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px rgba(26, 18, 8, 0.03);
+}
+
+.legal-content table thead {
+  background-color: #F7F3EC;
+}
+
+.legal-content table th {
+  padding: 0.875rem 1.25rem;
+  text-align: left;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: #1A1208;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #EFE8DB;
+}
+
+.legal-content table td {
+  padding: 1rem 1.25rem;
+  font-size: 0.9375rem;
+  color: #3f3629;
+  border-bottom: 1px solid #F2ECE0;
+  vertical-align: top;
+}
+
+.legal-content table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.legal-content table tbody tr:hover {
+  background-color: #FDFBF6;
+}
+
+.legal-content table td:first-child {
+  font-weight: 700;
+  color: #1A1208;
+}
+
+@media (max-width: 640px) {
+  .legal-content table {
+    font-size: 0.875rem;
+  }
+  .legal-content table th,
+  .legal-content table td {
+    padding: 0.75rem 0.875rem;
+  }
+}
