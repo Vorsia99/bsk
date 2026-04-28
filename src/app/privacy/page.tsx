@@ -20,10 +20,10 @@ export default function PrivacyPage() {
                 Privacy Policy
               </h1>
               <p className="text-sm text-text-muted mb-2">
-                <strong>Last Updated:</strong> February 26, 2026
+                <strong>Last Updated:</strong> April 28, 2026
               </p>
               <p className="text-sm text-text-muted mb-8">
-                <strong>Effective Date:</strong> February 26, 2026
+                <strong>Effective Date:</strong> April 28, 2026
               </p>
 
               <p>
@@ -111,12 +111,36 @@ export default function PrivacyPage() {
                 information such as credit card numbers.
               </p>
 
-              <h4>c) Analytics (PostHog)</h4>
+              <h4>c) Event Tracking (No Third-Party Analytics)</h4>
               <p>
-                We use PostHog for anonymous, aggregated app analytics (e.g., which
-                features are most used). Analytics are collected only in production
-                builds and use anonymous device identifiers — not personal
-                information.
+                The App does not use any third-party analytics SDK. All event
+                tracking is stored in a temporary in-memory buffer on the
+                device and is never transmitted off-device.
+              </p>
+
+              <h4>d) Subscription Management (RevenueCat)</h4>
+              <p>
+                To process subscription purchases, the App uses{" "}
+                <a
+                  href="https://www.revenuecat.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  RevenueCat
+                </a>
+                , which receives the App Store or Google Play transaction
+                receipt and an anonymous installation identifier solely to
+                validate and restore subscription entitlements. RevenueCat does
+                not receive any personally identifiable information about you
+                or your child. RevenueCat&apos;s privacy policy is available at{" "}
+                <a
+                  href="https://www.revenuecat.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  revenuecat.com/privacy
+                </a>
+                .
               </p>
 
               <h3>1.4. Information We Collect From Parents</h3>
@@ -134,21 +158,20 @@ export default function PrivacyPage() {
               </p>
               <ul>
                 <li>
-                  <strong>To provide the App&apos;s features</strong> — quiz progress
-                  tracking, verse memorization scheduling, and Bible text display
+                  <strong>To provide the App&apos;s features</strong> — quiz
+                  progress tracking, verse memorization scheduling, and Bible
+                  text display
                 </li>
                 <li>
-                  <strong>To improve the App</strong> — anonymous analytics help us
-                  understand which features are used most and identify bugs
-                </li>
-                <li>
-                  <strong>To process subscriptions</strong> — Apple and Google handle
-                  all payment processing; we only check whether a valid subscription
-                  exists on the device
+                  <strong>To process subscriptions</strong> — Apple and Google
+                  handle all payment processing, and RevenueCat validates and
+                  restores subscription entitlements using the transaction
+                  receipt and an anonymous installation identifier (no personal
+                  information about you or your child is sent)
                 </li>
                 <li>
                   <strong>To respond to support requests</strong> — if a parent
-                  emails us, we use their email to reply
+                  emails us, we use their email solely to reply
                 </li>
               </ul>
 
@@ -322,9 +345,12 @@ export default function PrivacyPage() {
                     <td>Managed entirely by Google</td>
                   </tr>
                   <tr>
-                    <td>PostHog</td>
-                    <td>Anonymous analytics</td>
-                    <td>Anonymous usage events only</td>
+                    <td>RevenueCat</td>
+                    <td>Subscription validation and restoration</td>
+                    <td>
+                      Transaction receipt and anonymous installation
+                      identifier; no PII
+                    </td>
                   </tr>
                 </tbody>
               </table>
@@ -332,16 +358,22 @@ export default function PrivacyPage() {
               <h2>7. Data Retention</h2>
               <ul>
                 <li>
-                  <strong>Local device data:</strong> Retained on the device until
-                  the App is uninstalled or the user resets progress
+                  <strong>Local device data:</strong> Retained on the device
+                  until the App is uninstalled or the user resets progress
                 </li>
                 <li>
-                  <strong>Support emails:</strong> Retained for up to 2 years for
-                  reference, then deleted
+                  <strong>In-memory event tracking:</strong> Cleared when the
+                  App is closed; never written to disk and never transmitted
+                  off-device
                 </li>
                 <li>
-                  <strong>Analytics data:</strong> Anonymous analytics data is
-                  retained by PostHog per their standard retention policy
+                  <strong>Subscription data (RevenueCat):</strong> Retained by
+                  RevenueCat per their standard retention policy for the
+                  purpose of validating and restoring entitlements
+                </li>
+                <li>
+                  <strong>Support emails:</strong> Retained for up to 2 years
+                  for reference, then deleted
                 </li>
               </ul>
 
